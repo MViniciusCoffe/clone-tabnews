@@ -6,15 +6,4 @@ function Home() {
   );
 }
 
-function Coisa() {
-  return (
-    <div>
-      <b>
-        {" "}
-        Eu te amo moorrr <p>sériooo</p>
-      </b>{" "}
-    </div>
-  );
-}
-
 export default Home;
