@@ -36,6 +36,9 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@secretlint/secretlint-rule-aws": "^11.2.5",
+    "@secretlint/secretlint-rule-gcp": "^11.2.5",
+    "@secretlint/secretlint-rule-preset-canary": "^11.2.5",
     "@secretlint/secretlint-rule-preset-recommend": "^11.2.5",
     "commitizen": "^4.3.0",
     "concurrently": "^8.2.2",
