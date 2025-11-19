@@ -2,7 +2,14 @@
   "extends": [
     "eslint:recommended",
     "plugin:jest/recommended",
+    "plugin:security/recommended-legacy",
     "next/core-web-vitals",
     "prettier"
-  ]
+  ],
+  "plugins": ["security", "no-secrets"],
+  "rules": {
+    "security/detect-object-injection": "off",
+    "security/detect-non-literal-fs-filename": "warn",
+    "no-secrets/no-secrets": "error"
+  }
 }
