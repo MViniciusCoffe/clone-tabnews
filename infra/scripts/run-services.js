@@ -49,7 +49,6 @@ try {
     }
     cleanup();
   });
-
 } catch (error) {
   console.error("\n❌ Erro na inicialização:", error.message);
   cleanup();
